@@ -10,7 +10,7 @@ function App() {
     // Modified to use the deployed backend URL - Unit 7 - Lesson 4 - deployment
     //        fetch('http://localhost:3000/api/books') // Fetch from backend
     useEffect(() => {
-        fetch('https://books-service-fr34.onrender.com/api/books') // Fetch from backend
+        fetch('https://books-nveu.onrender.com') // Fetch from backend
       .then((res) => res.json())
       .then((data) => setBooks(data))
       .catch((error) => console.error('Error fetching books:', error))
